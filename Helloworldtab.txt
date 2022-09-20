@@ -4,4 +4,4 @@ Enter the escape sequence directly into the print statement's within the inverte
 Sample Output : Hello World	Hello World
 
 solution:
-print("Hello\tWorld\n\tHello\tWorld")
+print("Hello\tWorld\t\tHello\tWorld")
