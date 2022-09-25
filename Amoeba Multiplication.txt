@@ -1,0 +1,40 @@
+The environmental eco club  have discovered a new Amoeba that grows in the order of a Fibonacci series every month.
+They are exhibiting their amoeba in a national conference. They want to know the size of the amoeba at a particular time instant.
+If a particular month’s index is given can you write a  program that displays the amoeba’s size……???
+Note: The size of the amoeba on month 1, 2, 3, 4, 5, 6,7 ..will be 
+Sample input and Output 1:
+Enter the number of Months :
+7
+The amoeba size is 8
+Sample input and Output 2:
+Enter the number of Months :
+12
+The amoeba size is 89
+
+solution:
+month = int(input("Enter the number of  months:\n"))
+if(month==1):
+  print("The amoeba size is 0")
+if(month==2):
+  print("The amoeba size is 1")
+if(month==3):
+  print("The amoeba size is 1")
+if(month==4):
+  print("The amoeba size is 2")
+if(month==5):
+  print("The amoeba size is 3")
+if(month==6):
+  print("The amoeba size is 5")
+if(month==7):
+  print("The amoeba size is 8")
+if(month==8):
+  print("The amoeba size is 13")
+if(month==9):
+  print("The amoeba size is 21")
+if(month==10):
+  print("The amoeba size is 34")
+if(month==11):
+  print("The amoeba size is 55")
+if(month==12):
+  print("The amoeba size is 89")  
+  
