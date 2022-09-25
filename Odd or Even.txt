@@ -1,0 +1,18 @@
+Write a Program to determine whether a given number is even or odd recursively
+Sample Input & Output:
+6
+Even!
+
+solution:
+def evenodd(n):
+    if(n==0):
+        return True
+    elif(n==1):
+        return False
+    else:
+        return evenodd(n-2)
+n=int(input())
+if(evenodd(n)):
+    print("Even!")
+else:
+    print("Odd!")
