@@ -1,0 +1,41 @@
+In this problem you must write a program that determines if two circles intersect each other.
+The input to your program will be the <x, y> coordinates for the center of each circle, followed by the radius(r) of each circle.
+The output will state whether the circles overlap, do not overlap, or are tangential (i.e., tangential circles touch each other at just one common point).
+Sample Input 1:
+10
+10
+3
+10
+6
+1
+Sample Output 1:
+The circles are tangential
+Sample Input 2:
+8
+8
+3
+8
+4
+2
+Sample Output 2:
+The circles overlap
+
+solution:
+import math
+x1 = int(input())
+y1 = int(input())
+r1 = int(input())
+x2 = int(input())
+y2 = int(input())
+r2 = int(input())
+d =((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
+dst=math.sqrt(d)
+r = r1+r2
+if(dst==r):
+    print("The circles are tangential")
+if(dst<r):
+    print("The circles overlap")
+if(dst>r):
+    print("The circles do not overlap")
+
+
