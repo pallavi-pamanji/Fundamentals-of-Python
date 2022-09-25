@@ -1,0 +1,11 @@
+Write a program to generate the following series --- 1,4,9,16,25, .... 
+Sample Input :
+7
+Sample Output:
+1 4 9 16 25 36 49 
+
+solution:
+n = int(input())
+for n in range(1,n+1):
+  a = n*n
+  print(a,end=" ")
