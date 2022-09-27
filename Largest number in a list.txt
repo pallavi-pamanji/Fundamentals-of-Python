@@ -1,0 +1,18 @@
+Write a Python Program to find the largest number in a list
+Sample Input:
+5
+1
+2
+3
+6
+5
+Sample Output:
+6
+
+solution:
+n=int(input())
+list=[]
+for i in range(n):
+    n=int(input())
+    list.append(n)
+print(max(list))    
