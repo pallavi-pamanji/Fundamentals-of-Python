@@ -1,0 +1,21 @@
+The program takes a lists and removes the duplicate items from the list. Problem Solution Take the number of elements in the list and store it in a variable. Accept the values into the list using a for loop and insert them into the list. Use a for loop to traverse through the elements of the list. Use an if statement to check if the element is already there in the list and if it is not there, append it to another list. Print the non-duplicate items of the list. Exit.
+Sample Input & Output:
+5
+10
+10
+20
+20
+20  
+[10, 20]
+
+solution:
+n=int(input())
+ls1,ls2=[],[]
+for i in range(n):
+     a=int(input())
+     ls1.append(a)
+for i in ls1:
+     if i not in ls2:
+         ls2.append(i)
+print(ls2)       
+
